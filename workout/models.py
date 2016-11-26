@@ -1,3 +1,4 @@
+# vim: sw=4 ai sm expandtab
 from __future__ import unicode_literals
 
 from django.db import models

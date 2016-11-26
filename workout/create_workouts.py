@@ -1,12 +1,24 @@
 #!/usr/bin/env python2.7
 
 # coding: utf-8
+# vim: sw=4 ai sm expandtab
 
-import requests
+import django
+import os
 import re
+import requests
+import sys
+
+app_dir = os.path.abspath('../tri/')
+sys.path.append(app_dir)
 
 from bs4 import BeautifulSoup
 from collections import defaultdict
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tri.settings")
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+from django.conf import settings
+
 
 def capture_data(url):
     """grab the data from the url"""
@@ -14,7 +26,6 @@ def capture_data(url):
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5)'
                              ' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
                              '50.0.2661.102 Safari/537.36'}
-
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup.tr.text
@@ -63,7 +74,8 @@ def capture_day(data, day):
         text = ''
     return text
 
-url = 'http://www.trifuel.com/triathlon/ironman-workouts/weekp05.htm'
-data = capture_data(url)
-txt = capture_day(data, 'Tuesday')
-dd = workouts(txt)
+if __name__ == '__main__':
+    url = 'http://www.trifuel.com/triathlon/ironman-workouts/weekp05.htm'
+    data = capture_data(url)
+    txt = capture_day(data, 'Tuesday')
+    dd = workouts(txt)

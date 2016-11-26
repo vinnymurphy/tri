@@ -1,3 +1,4 @@
+# vim: sw=4 ai sm expandtab
 from django.conf.urls import url
 
 from . import views
