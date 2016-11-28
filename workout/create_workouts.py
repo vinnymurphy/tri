@@ -9,15 +9,40 @@ import re
 import requests
 import sys
 
-app_dir = os.path.abspath('../tri/')
-sys.path.append(app_dir)
+proj_path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tri.settings")
+sys.path.append(proj_path)
+# This is so my local_settings.py gets loaded.
+os.chdir(proj_path)
+
+# This is so models get loaded.
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
 
 from bs4 import BeautifulSoup
 from collections import defaultdict
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tri.settings")
 os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 from django.conf import settings
+
+def weekly_urls():
+    'get all the urls'
+
+    url = 'http://www.trifuel.com/triathlon/ironman-workouts/'
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5)'
+                             ' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+                             '50.0.2661.102 Safari/537.36'}
+    r = requests.get(url, headers=headers)
+    url_re = re.compile(r'(?:week\w?|taper)\d+\.htm')
+    base_url = r.url
+    soup = BeautifulSoup(r.content, 'html.parser')
+    urls = [u['href'] for u in soup.find_all('a') if url_re.search(u['href'])]
+    l = []
+    l.extend(sorted([u for u in urls if re.search(r'week\d+.htm', u)]))
+    l.extend(sorted([u for u in urls if re.search(r'weekp\d+.htm', u)]))
+    l.extend(sorted([u for u in urls if re.search(r'weekc\d+.htm', u)]))
+    l.extend(sorted([u for u in urls if re.search(r'taper\d+.htm', u)]))
+    return l
 
 
 def capture_data(url):
@@ -79,3 +104,4 @@ if __name__ == '__main__':
     data = capture_data(url)
     txt = capture_day(data, 'Tuesday')
     dd = workouts(txt)
+    print dd
