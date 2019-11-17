@@ -1,0 +1,8 @@
+[alias]
+	ci = commit -v
+	co = checkout
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	ll = log --oneline
+	next = !git checkout `git rev-list HEAD..master | tail -1`
+	prev = checkout HEAD^
+	st = status
