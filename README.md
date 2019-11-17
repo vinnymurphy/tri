@@ -32,20 +32,26 @@ a great planning tool.
 Monday:
 - Swim - moderate intensity & duration
 - Bike - low intensity & duration
+
 Tuesday:
 - Bike - moderate-to-high intensity, moderate duration
 - Run - moderate intensity, lower duration
+
 Wednesday:
 - Swim - moderate-to-high intensity, moderate duration
 - Bike - moderate intensity, low-to-moderate duration
+
 Thursday:
 - Swim - low intensity, long duration
 - Run - high intensity, moderate duration
+
 Friday:
 - Complete recovery day
+
 Saturday:
 - Bike - longest duration, moderate-to-high intensity
 - Run - moderate intensity & low-to-medium duration
+
 Sunday:
 - Run - longest duration, lowest intensity
 - Bike - short duration, low intensity
