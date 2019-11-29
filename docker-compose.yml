@@ -1,5 +1,3 @@
-# vim: ts=2 sts=2 sw=2 expandtab
-
 version: '3.7'
 
 volumes:
@@ -23,6 +21,19 @@ services:
       - postgres
     env_file: ./.docker-env
     ports:
-      - 8000:8000
+      - "8000:8000"
+    volumes:
+      - ./src:/app
+
+  jupyter:
+    init: true
+    build:
+      context: .
+      dockerfile: ./docker/jupyter/Dockerfile
+    depends_on:
+      - postgres
+    env_file: ./.docker-env
+    ports:
+      - "8088:8088"
     volumes:
       - ./src:/app

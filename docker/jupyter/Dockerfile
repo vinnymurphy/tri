@@ -8,6 +8,6 @@ RUN python3.7 -m pip install --upgrade pip && python3.7 -m pip install -U pip se
 COPY requirements.txt /tmp/requirements.txt
 RUN python3.7 -m pip install -U --no-cache-dir -r /tmp/requirements.txt
 
-COPY docker/django/entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY docker/jupyter/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
