@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import DailyWorkout, Workout
+
+admin.site.register(DailyWorkout)
+
+@admin.register(Workout)
+class WorkoutAdmin(admin.ModelAdmin):
+    list_display = ('name', 'slug')
