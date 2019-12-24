@@ -1,9 +1,9 @@
 from django.contrib import admin
 
-from .models import DailyWorkout, Workout
+from .models import Day, Workout
 
-admin.site.register(DailyWorkout)
+admin.site.register(Day)
 
 @admin.register(Workout)
-class WorkoutAdmin(admin.ModelAdmin):
+class DayAdmin(admin.ModelAdmin):
     list_display = ('name', 'slug')

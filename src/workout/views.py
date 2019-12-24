@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from django.views.generic import DetailView, ListView
 
-# Create your views here.
+from .models import Workout
+
+
+class WorkoutDetail(DetailView):
+    model = Workout
+
+
+class WorkoutList(ListView):
+    model = Workout
