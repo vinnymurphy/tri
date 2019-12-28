@@ -1,9 +1,15 @@
 from django.contrib import admin
 
-from .models import DailyWorkout, Workout
+from .models import Day, Workout
 
-admin.site.register(DailyWorkout)
+
+@admin.register(Day)
+class DayAdmin(admin.ModelAdmin):
+    exclude = ('slug',)
+
 
 @admin.register(Workout)
 class WorkoutAdmin(admin.ModelAdmin):
-    list_display = ('name', 'slug')
+    list_display = ('name',)
+    exclude = ('slug',)
+

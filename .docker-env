@@ -1,0 +1,5 @@
+POSTGRES_DB=swimbikerun
+POSTGRES_PASSWORD=gtjRGJUQQRMi
+POSTGRES_USER=swimbikerun
+DATABASE_URL=postgres://swimbikerun:gtjRGJUQQRMi@postgres:5432/swimbikerun
+SECRET_KEY=UamNj49tCaUl6yDo8D146NNacvnNhrsIjJUBcLs8Gl5X0mGCTr
