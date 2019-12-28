@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title></title>
+</head>
+
+<body>
+<h1></h1>
+<h3>Workout{{ workout_list|pluralize }}</h3>
+<ul>
+  {% for workout in workout_list %}
+  <li><a href="{{ workout.get_absolute_url }}">{{ workout.name }}</li>
+  {% endfor %}
+</ul>
+
+
+<hr>
+<address></address>
+<!-- hhmts start -->Last modified: Thu Dec  5 11:53:50 EST 2019 <!-- hhmts end -->
+</body> </html>
