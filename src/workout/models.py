@@ -38,7 +38,7 @@ class Day(Model):
     slug = AutoSlugField(populate_from=('day', 'week_number'))
 
     class Meta:
-        ordering = ('week_number', 'day')
+        ordering = ('id',)
 
 
 class Workout(Model):

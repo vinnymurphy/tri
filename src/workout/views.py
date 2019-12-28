@@ -1,11 +1,11 @@
-from django.views.generic import DetailView, ListView
+from django.shortcuts import render
+from django.views.generic import ListView
 
-from .models import Workout
-
-
-class WorkoutDetail(DetailView):
-    model = Workout
+from .models import Workout, Day
 
 
 class WorkoutList(ListView):
     model = Workout
+
+class DayList(ListView):
+    model = Day
