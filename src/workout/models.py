@@ -49,3 +49,8 @@ class Workout(Model):
     slug = AutoSlugField(populate_from=['exercise', 'name'])
     duration = IntegerField(help_text='How many minutes to complete')
     description = TextField()
+
+
+class Event(Model):
+    'https://alexpnt.github.io/2017/07/15/django-calendar/'
+    pass

@@ -27,6 +27,7 @@ def parse_args():
 
 
 def populate(verbose=False):
+    import inflect
     p = inflect.engine()
     week = range(1, 37)
     days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
@@ -38,6 +39,14 @@ def populate(verbose=False):
             description = f'{day_dict[day]} of week {week_describe}'
             d = Day(week_number=w, day=day, description=description)
             d.save()
+    for mon in Day.objects.filter(day='Mon', week_number__gt=25, week_number__lt=34):
+        mon.description = '''Total day off -- relax and allow your body to rebuild.
+Remember, rest with as much intensity as you train!'''
+        mon.save()
+    for fri in Day.objects.filter(day='Fri', week_number__gt=25, week_number__lt=34):
+        fri.description = ''
+        fri.save()
+        
 
 
 if __name__ == '__main__':
