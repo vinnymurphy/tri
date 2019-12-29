@@ -1,0 +1,1848 @@
+- model: workout.day
+  pk: 1
+  fields:
+    description: We begin easily enough with one short swim. Nothing too crazy here,
+      just allow yourself some time to get used to the water again and be patient
+      with speed.
+    day: Mon
+    week_number: 1
+    slug: mon-1
+- model: workout.day
+  pk: 2
+  fields:
+    description: Because the duration of each workout is relatively short today, it
+      is possible to put them in your day together, back-to-back. However, as these
+      durations increase it will be preferable to split these efforts within your
+      day -- the order isn't very important right now, though we will recommend later
+      that you perform the higher intensity bike effort first.
+    day: Tue
+    week_number: 1
+    slug: tue-1
+- model: workout.day
+  pk: 3
+  fields:
+    description: Today's swim is a standard duration that we will incorporate into
+      most Wednesday schedules. You can schedule this into your day as your situation
+      allows (open swim schedules generally allow for morning swims, which is suggested).
+      The bike effort should be done on your trainer, since it involves some drills
+      and will incorporate very controlled workouts over time.
+    day: Wed
+    week_number: 1
+    slug: wed-1
+- model: workout.day
+  pk: 4
+  fields:
+    description: Thursday's schedules will generally include a longer morning swim
+      and a running session at the track later in the day. The track sessions won't
+      be mandatory until later in the season, once we've established a sufficient
+      aerobic base.
+    day: Thu
+    week_number: 1
+    slug: thu-1
+- model: workout.day
+  pk: 5
+  fields:
+    description: This is an optional additional swim that we are incorporating into
+      the first two weeks only. In the future you'll notice that Friday is reserved
+      for complete recovery before the heavy training normally scheduled for the weekends.
+    day: Fri
+    week_number: 1
+    slug: fri-1
+- model: workout.day
+  pk: 6
+  fields:
+    description: Saturday's schedules will almost always include the longest cycling
+      session of the week. This will be performed outdoors when it gets warmer (for
+      those of us stuck in the colder climates, that is!). During the indoor riding
+      season, these sessions can be shorter because they will also be more efficient
+      -- no stopping for stop lights, very controllable terrain, etc. We will also
+      begin to incorporate a short run after this ride once the weekly training durations
+      get a bit longer.
+    day: Sat
+    week_number: 1
+    slug: sat-1
+- model: workout.day
+  pk: 7
+  fields:
+    description: Sunday's focus is generally on the run; we incorporate an additional
+      ride to increase the total aerobic effort while minimizing the stress on your
+      legs. In the colder months, the run should always be performed first & the cycling
+      shortly thereafter.
+    day: Sun
+    week_number: 1
+    slug: sun-1
+- model: workout.day
+  pk: 8
+  fields:
+    description: A shorter, easy swim with some additional stroke work to build overall
+      strength and provide some variety.
+    day: Mon
+    week_number: 2
+    slug: mon-2
+- model: workout.day
+  pk: 9
+  fields:
+    description: The bike ride should be done first today; the run can follow either
+      immediately after or later in the day, depending on your schedule.
+    day: Tue
+    week_number: 2
+    slug: tue-2
+- model: workout.day
+  pk: 10
+  fields:
+    description: Wednesday of week two
+    day: Wed
+    week_number: 2
+    slug: wed-2
+- model: workout.day
+  pk: 11
+  fields:
+    description: Thursday of week two
+    day: Thu
+    week_number: 2
+    slug: thu-2
+- model: workout.day
+  pk: 12
+  fields:
+    description: As with last week, this is an optional additional swim to help you
+      get used to getting back in the water. If you feel like taking a day completely
+      off (especially after working out each of the previous 11!), then fine.
+    day: Fri
+    week_number: 2
+    slug: fri-2
+- model: workout.day
+  pk: 13
+  fields:
+    description: Saturday's ride will always be the longest effort of the week. For
+      those who can ride outdoors year-round, it is important to perform the warm
+      up and drills on a regular basis during the pre-season period -- you can finish
+      the ride outdoors if this option is available. In addition, there will be times
+      when the main set will guide you to a more efficient, more effective workout.
+      Use your judgment to ensure that you're getting the desired workout without
+      unnecessary risk of injury or burnout.
+    day: Sat
+    week_number: 2
+    slug: sat-2
+- model: workout.day
+  pk: 14
+  fields:
+    description: These two sessions should be done back-to-back, in either order.
+      If you live in a warmer climate and can ride/run outside (or can do both workouts
+      indoors), then put the bike workout first and follow immediately afterward with
+      the run. In colder climates, if you don't have a treadmill available, then go
+      ahead and run first before finishing off with a cool down spin indoors.
+    day: Sun
+    week_number: 2
+    slug: sun-2
+- model: workout.day
+  pk: 15
+  fields:
+    description: Monday of week three
+    day: Mon
+    week_number: 3
+    slug: mon-3
+- model: workout.day
+  pk: 16
+  fields:
+    description: Tuesday of week three
+    day: Tue
+    week_number: 3
+    slug: tue-3
+- model: workout.day
+  pk: 17
+  fields:
+    description: Wednesday of week three
+    day: Wed
+    week_number: 3
+    slug: wed-3
+- model: workout.day
+  pk: 18
+  fields:
+    description: Thursday of week three
+    day: Thu
+    week_number: 3
+    slug: thu-3
+- model: workout.day
+  pk: 19
+  fields:
+    description: Friday of week three
+    day: Fri
+    week_number: 3
+    slug: fri-3
+- model: workout.day
+  pk: 20
+  fields:
+    description: Saturday of week three
+    day: Sat
+    week_number: 3
+    slug: sat-3
+- model: workout.day
+  pk: 21
+  fields:
+    description: Sunday of week three
+    day: Sun
+    week_number: 3
+    slug: sun-3
+- model: workout.day
+  pk: 22
+  fields:
+    description: Monday of week four
+    day: Mon
+    week_number: 4
+    slug: mon-4
+- model: workout.day
+  pk: 23
+  fields:
+    description: Tuesday of week four
+    day: Tue
+    week_number: 4
+    slug: tue-4
+- model: workout.day
+  pk: 24
+  fields:
+    description: Wednesday of week four
+    day: Wed
+    week_number: 4
+    slug: wed-4
+- model: workout.day
+  pk: 25
+  fields:
+    description: Thursday of week four
+    day: Thu
+    week_number: 4
+    slug: thu-4
+- model: workout.day
+  pk: 26
+  fields:
+    description: Friday of week four
+    day: Fri
+    week_number: 4
+    slug: fri-4
+- model: workout.day
+  pk: 27
+  fields:
+    description: Saturday of week four
+    day: Sat
+    week_number: 4
+    slug: sat-4
+- model: workout.day
+  pk: 28
+  fields:
+    description: Sunday of week four
+    day: Sun
+    week_number: 4
+    slug: sun-4
+- model: workout.day
+  pk: 29
+  fields:
+    description: Monday of week five
+    day: Mon
+    week_number: 5
+    slug: mon-5
+- model: workout.day
+  pk: 30
+  fields:
+    description: Tuesday of week five
+    day: Tue
+    week_number: 5
+    slug: tue-5
+- model: workout.day
+  pk: 31
+  fields:
+    description: Wednesday of week five
+    day: Wed
+    week_number: 5
+    slug: wed-5
+- model: workout.day
+  pk: 32
+  fields:
+    description: Thursday of week five
+    day: Thu
+    week_number: 5
+    slug: thu-5
+- model: workout.day
+  pk: 33
+  fields:
+    description: Friday of week five
+    day: Fri
+    week_number: 5
+    slug: fri-5
+- model: workout.day
+  pk: 34
+  fields:
+    description: Saturday of week five
+    day: Sat
+    week_number: 5
+    slug: sat-5
+- model: workout.day
+  pk: 35
+  fields:
+    description: Sunday of week five
+    day: Sun
+    week_number: 5
+    slug: sun-5
+- model: workout.day
+  pk: 36
+  fields:
+    description: Monday of week six
+    day: Mon
+    week_number: 6
+    slug: mon-6
+- model: workout.day
+  pk: 37
+  fields:
+    description: Tuesday of week six
+    day: Tue
+    week_number: 6
+    slug: tue-6
+- model: workout.day
+  pk: 38
+  fields:
+    description: Wednesday of week six
+    day: Wed
+    week_number: 6
+    slug: wed-6
+- model: workout.day
+  pk: 39
+  fields:
+    description: Thursday of week six
+    day: Thu
+    week_number: 6
+    slug: thu-6
+- model: workout.day
+  pk: 40
+  fields:
+    description: Friday of week six
+    day: Fri
+    week_number: 6
+    slug: fri-6
+- model: workout.day
+  pk: 41
+  fields:
+    description: Saturday of week six
+    day: Sat
+    week_number: 6
+    slug: sat-6
+- model: workout.day
+  pk: 42
+  fields:
+    description: Sunday of week six
+    day: Sun
+    week_number: 6
+    slug: sun-6
+- model: workout.day
+  pk: 43
+  fields:
+    description: Monday of week seven
+    day: Mon
+    week_number: 7
+    slug: mon-7
+- model: workout.day
+  pk: 44
+  fields:
+    description: Tuesday of week seven
+    day: Tue
+    week_number: 7
+    slug: tue-7
+- model: workout.day
+  pk: 45
+  fields:
+    description: Wednesday of week seven
+    day: Wed
+    week_number: 7
+    slug: wed-7
+- model: workout.day
+  pk: 46
+  fields:
+    description: Thursday of week seven
+    day: Thu
+    week_number: 7
+    slug: thu-7
+- model: workout.day
+  pk: 47
+  fields:
+    description: Friday of week seven
+    day: Fri
+    week_number: 7
+    slug: fri-7
+- model: workout.day
+  pk: 48
+  fields:
+    description: Saturday of week seven
+    day: Sat
+    week_number: 7
+    slug: sat-7
+- model: workout.day
+  pk: 49
+  fields:
+    description: Sunday of week seven
+    day: Sun
+    week_number: 7
+    slug: sun-7
+- model: workout.day
+  pk: 50
+  fields:
+    description: Monday of week eight
+    day: Mon
+    week_number: 8
+    slug: mon-8
+- model: workout.day
+  pk: 51
+  fields:
+    description: Tuesday of week eight
+    day: Tue
+    week_number: 8
+    slug: tue-8
+- model: workout.day
+  pk: 52
+  fields:
+    description: Wednesday of week eight
+    day: Wed
+    week_number: 8
+    slug: wed-8
+- model: workout.day
+  pk: 53
+  fields:
+    description: Thursday of week eight
+    day: Thu
+    week_number: 8
+    slug: thu-8
+- model: workout.day
+  pk: 54
+  fields:
+    description: Friday of week eight
+    day: Fri
+    week_number: 8
+    slug: fri-8
+- model: workout.day
+  pk: 55
+  fields:
+    description: Saturday of week eight
+    day: Sat
+    week_number: 8
+    slug: sat-8
+- model: workout.day
+  pk: 56
+  fields:
+    description: Sunday of week eight
+    day: Sun
+    week_number: 8
+    slug: sun-8
+- model: workout.day
+  pk: 57
+  fields:
+    description: Monday of week nine
+    day: Mon
+    week_number: 9
+    slug: mon-9
+- model: workout.day
+  pk: 58
+  fields:
+    description: Tuesday of week nine
+    day: Tue
+    week_number: 9
+    slug: tue-9
+- model: workout.day
+  pk: 59
+  fields:
+    description: Wednesday of week nine
+    day: Wed
+    week_number: 9
+    slug: wed-9
+- model: workout.day
+  pk: 60
+  fields:
+    description: Thursday of week nine
+    day: Thu
+    week_number: 9
+    slug: thu-9
+- model: workout.day
+  pk: 61
+  fields:
+    description: Friday of week nine
+    day: Fri
+    week_number: 9
+    slug: fri-9
+- model: workout.day
+  pk: 62
+  fields:
+    description: This is one of the longest (perhaps the longest) cycling sessions
+      we've had so far -- if you try to swallow it all at once you'll choke, so bear
+      with me and let's take it through one segment at a time....
+    day: Sat
+    week_number: 9
+    slug: sat-9
+- model: workout.day
+  pk: 63
+  fields:
+    description: Sunday of week nine
+    day: Sun
+    week_number: 9
+    slug: sun-9
+- model: workout.day
+  pk: 64
+  fields:
+    description: Monday of week ten
+    day: Mon
+    week_number: 10
+    slug: mon-10
+- model: workout.day
+  pk: 65
+  fields:
+    description: Tuesday of week ten
+    day: Tue
+    week_number: 10
+    slug: tue-10
+- model: workout.day
+  pk: 66
+  fields:
+    description: Wednesday of week ten
+    day: Wed
+    week_number: 10
+    slug: wed-10
+- model: workout.day
+  pk: 67
+  fields:
+    description: Thursday of week ten
+    day: Thu
+    week_number: 10
+    slug: thu-10
+- model: workout.day
+  pk: 68
+  fields:
+    description: In this higher intensity week, this day off is absolutely essential.
+      You should have been controlling your stress throughout the week, concentrating
+      on getting enough sleep and hydrating properly. This day off should help you
+      catch up with your recuperation after the big target sessions over the past
+      two days. Relax & enjoy!
+    day: Fri
+    week_number: 10
+    slug: fri-10
+- model: workout.day
+  pk: 69
+  fields:
+    description: Saturday of week ten
+    day: Sat
+    week_number: 10
+    slug: sat-10
+- model: workout.day
+  pk: 70
+  fields:
+    description: Sunday of week ten
+    day: Sun
+    week_number: 10
+    slug: sun-10
+- model: workout.day
+  pk: 71
+  fields:
+    description: Monday of week eleven
+    day: Mon
+    week_number: 11
+    slug: mon-11
+- model: workout.day
+  pk: 72
+  fields:
+    description: Tuesday of week eleven
+    day: Tue
+    week_number: 11
+    slug: tue-11
+- model: workout.day
+  pk: 73
+  fields:
+    description: Wednesday of week eleven
+    day: Wed
+    week_number: 11
+    slug: wed-11
+- model: workout.day
+  pk: 74
+  fields:
+    description: Thursday of week eleven
+    day: Thu
+    week_number: 11
+    slug: thu-11
+- model: workout.day
+  pk: 75
+  fields:
+    description: Friday of week eleven
+    day: Fri
+    week_number: 11
+    slug: fri-11
+- model: workout.day
+  pk: 76
+  fields:
+    description: Saturday of week eleven
+    day: Sat
+    week_number: 11
+    slug: sat-11
+- model: workout.day
+  pk: 77
+  fields:
+    description: Sunday of week eleven
+    day: Sun
+    week_number: 11
+    slug: sun-11
+- model: workout.day
+  pk: 78
+  fields:
+    description: Monday of week twelve
+    day: Mon
+    week_number: 12
+    slug: mon-12
+- model: workout.day
+  pk: 79
+  fields:
+    description: Tuesday of week twelve
+    day: Tue
+    week_number: 12
+    slug: tue-12
+- model: workout.day
+  pk: 80
+  fields:
+    description: Wednesday of week twelve
+    day: Wed
+    week_number: 12
+    slug: wed-12
+- model: workout.day
+  pk: 81
+  fields:
+    description: Thursday of week twelve
+    day: Thu
+    week_number: 12
+    slug: thu-12
+- model: workout.day
+  pk: 82
+  fields:
+    description: Friday of week twelve
+    day: Fri
+    week_number: 12
+    slug: fri-12
+- model: workout.day
+  pk: 83
+  fields:
+    description: Saturday of week twelve
+    day: Sat
+    week_number: 12
+    slug: sat-12
+- model: workout.day
+  pk: 84
+  fields:
+    description: Sunday of week twelve
+    day: Sun
+    week_number: 12
+    slug: sun-12
+- model: workout.day
+  pk: 85
+  fields:
+    description: Monday of week thirteen
+    day: Mon
+    week_number: 13
+    slug: mon-13
+- model: workout.day
+  pk: 86
+  fields:
+    description: Tuesday of week thirteen
+    day: Tue
+    week_number: 13
+    slug: tue-13
+- model: workout.day
+  pk: 87
+  fields:
+    description: Wednesday of week thirteen
+    day: Wed
+    week_number: 13
+    slug: wed-13
+- model: workout.day
+  pk: 88
+  fields:
+    description: Thursday of week thirteen
+    day: Thu
+    week_number: 13
+    slug: thu-13
+- model: workout.day
+  pk: 89
+  fields:
+    description: Friday of week thirteen
+    day: Fri
+    week_number: 13
+    slug: fri-13
+- model: workout.day
+  pk: 90
+  fields:
+    description: Saturday of week thirteen
+    day: Sat
+    week_number: 13
+    slug: sat-13
+- model: workout.day
+  pk: 91
+  fields:
+    description: Sunday of week thirteen
+    day: Sun
+    week_number: 13
+    slug: sun-13
+- model: workout.day
+  pk: 92
+  fields:
+    description: Monday of week fourteen
+    day: Mon
+    week_number: 14
+    slug: mon-14
+- model: workout.day
+  pk: 93
+  fields:
+    description: Tuesday of week fourteen
+    day: Tue
+    week_number: 14
+    slug: tue-14
+- model: workout.day
+  pk: 94
+  fields:
+    description: Wednesday of week fourteen
+    day: Wed
+    week_number: 14
+    slug: wed-14
+- model: workout.day
+  pk: 95
+  fields:
+    description: Thursday of week fourteen
+    day: Thu
+    week_number: 14
+    slug: thu-14
+- model: workout.day
+  pk: 96
+  fields:
+    description: Friday of week fourteen
+    day: Fri
+    week_number: 14
+    slug: fri-14
+- model: workout.day
+  pk: 97
+  fields:
+    description: Saturday of week fourteen
+    day: Sat
+    week_number: 14
+    slug: sat-14
+- model: workout.day
+  pk: 98
+  fields:
+    description: This is the end of a particularly hard week, and you've successfully
+      gotten through the longest, toughest cycle so far -- terrific! Of course, there
+      are significant challenges ahead, both before and during the upcoming race season,
+      so let's use your success so far to inspire you to produce even better results
+      going forward! Good job this week!
+    day: Sun
+    week_number: 14
+    slug: sun-14
+- model: workout.day
+  pk: 99
+  fields:
+    description: Monday of week fifteen
+    day: Mon
+    week_number: 15
+    slug: mon-15
+- model: workout.day
+  pk: 100
+  fields:
+    description: Tuesday of week fifteen
+    day: Tue
+    week_number: 15
+    slug: tue-15
+- model: workout.day
+  pk: 101
+  fields:
+    description: Wednesday of week fifteen
+    day: Wed
+    week_number: 15
+    slug: wed-15
+- model: workout.day
+  pk: 102
+  fields:
+    description: Thursday of week fifteen
+    day: Thu
+    week_number: 15
+    slug: thu-15
+- model: workout.day
+  pk: 103
+  fields:
+    description: Friday of week fifteen
+    day: Fri
+    week_number: 15
+    slug: fri-15
+- model: workout.day
+  pk: 104
+  fields:
+    description: Saturday of week fifteen
+    day: Sat
+    week_number: 15
+    slug: sat-15
+- model: workout.day
+  pk: 105
+  fields:
+    description: Sunday of week fifteen
+    day: Sun
+    week_number: 15
+    slug: sun-15
+- model: workout.day
+  pk: 106
+  fields:
+    description: Monday of week sixteen
+    day: Mon
+    week_number: 16
+    slug: mon-16
+- model: workout.day
+  pk: 107
+  fields:
+    description: Tuesday of week sixteen
+    day: Tue
+    week_number: 16
+    slug: tue-16
+- model: workout.day
+  pk: 108
+  fields:
+    description: Wednesday of week sixteen
+    day: Wed
+    week_number: 16
+    slug: wed-16
+- model: workout.day
+  pk: 109
+  fields:
+    description: Thursday of week sixteen
+    day: Thu
+    week_number: 16
+    slug: thu-16
+- model: workout.day
+  pk: 110
+  fields:
+    description: Hopefully you've been handling the increase in hours and intensity
+      thus far. Hard workouts will soon take on a much more anaerobic flavor for the
+      most part. Get psyched to get fast!
+    day: Fri
+    week_number: 16
+    slug: fri-16
+- model: workout.day
+  pk: 111
+  fields:
+    description: Saturday of week sixteen
+    day: Sat
+    week_number: 16
+    slug: sat-16
+- model: workout.day
+  pk: 112
+  fields:
+    description: Sunday of week sixteen
+    day: Sun
+    week_number: 16
+    slug: sun-16
+- model: workout.day
+  pk: 113
+  fields:
+    description: Monday of week seventeen
+    day: Mon
+    week_number: 17
+    slug: mon-17
+- model: workout.day
+  pk: 114
+  fields:
+    description: Tuesday of week seventeen
+    day: Tue
+    week_number: 17
+    slug: tue-17
+- model: workout.day
+  pk: 115
+  fields:
+    description: Wednesday of week seventeen
+    day: Wed
+    week_number: 17
+    slug: wed-17
+- model: workout.day
+  pk: 116
+  fields:
+    description: Thursday of week seventeen
+    day: Thu
+    week_number: 17
+    slug: thu-17
+- model: workout.day
+  pk: 117
+  fields:
+    description: Friday of week seventeen
+    day: Fri
+    week_number: 17
+    slug: fri-17
+- model: workout.day
+  pk: 118
+  fields:
+    description: Saturday of week seventeen
+    day: Sat
+    week_number: 17
+    slug: sat-17
+- model: workout.day
+  pk: 119
+  fields:
+    description: Sunday of week seventeen
+    day: Sun
+    week_number: 17
+    slug: sun-17
+- model: workout.day
+  pk: 120
+  fields:
+    description: Monday of week eighteen
+    day: Mon
+    week_number: 18
+    slug: mon-18
+- model: workout.day
+  pk: 121
+  fields:
+    description: Tuesday of week eighteen
+    day: Tue
+    week_number: 18
+    slug: tue-18
+- model: workout.day
+  pk: 122
+  fields:
+    description: Wednesday of week eighteen
+    day: Wed
+    week_number: 18
+    slug: wed-18
+- model: workout.day
+  pk: 123
+  fields:
+    description: Thursday of week eighteen
+    day: Thu
+    week_number: 18
+    slug: thu-18
+- model: workout.day
+  pk: 124
+  fields:
+    description: Friday of week eighteen
+    day: Fri
+    week_number: 18
+    slug: fri-18
+- model: workout.day
+  pk: 125
+  fields:
+    description: Saturday of week eighteen
+    day: Sat
+    week_number: 18
+    slug: sat-18
+- model: workout.day
+  pk: 126
+  fields:
+    description: Sunday of week eighteen
+    day: Sun
+    week_number: 18
+    slug: sun-18
+- model: workout.day
+  pk: 127
+  fields:
+    description: Monday of week nineteen
+    day: Mon
+    week_number: 19
+    slug: mon-19
+- model: workout.day
+  pk: 128
+  fields:
+    description: Tuesday of week nineteen
+    day: Tue
+    week_number: 19
+    slug: tue-19
+- model: workout.day
+  pk: 129
+  fields:
+    description: Wednesday of week nineteen
+    day: Wed
+    week_number: 19
+    slug: wed-19
+- model: workout.day
+  pk: 130
+  fields:
+    description: Thursday of week nineteen
+    day: Thu
+    week_number: 19
+    slug: thu-19
+- model: workout.day
+  pk: 131
+  fields:
+    description: Friday of week nineteen
+    day: Fri
+    week_number: 19
+    slug: fri-19
+- model: workout.day
+  pk: 132
+  fields:
+    description: This session, as usual, is written for those who are stuck indoors.
+      April can be a very fickle month weather-wise...if you can get outside, we'd
+      recommend it now for building a stronger set of bike handling skills for those
+      early season races.
+    day: Sat
+    week_number: 19
+    slug: sat-19
+- model: workout.day
+  pk: 133
+  fields:
+    description: Sunday of week nineteen
+    day: Sun
+    week_number: 19
+    slug: sun-19
+- model: workout.day
+  pk: 134
+  fields:
+    description: Monday of week twenty
+    day: Mon
+    week_number: 20
+    slug: mon-20
+- model: workout.day
+  pk: 135
+  fields:
+    description: Tuesday of week twenty
+    day: Tue
+    week_number: 20
+    slug: tue-20
+- model: workout.day
+  pk: 136
+  fields:
+    description: Wednesday of week twenty
+    day: Wed
+    week_number: 20
+    slug: wed-20
+- model: workout.day
+  pk: 137
+  fields:
+    description: Thursday of week twenty
+    day: Thu
+    week_number: 20
+    slug: thu-20
+- model: workout.day
+  pk: 138
+  fields:
+    description: Friday of week twenty
+    day: Fri
+    week_number: 20
+    slug: fri-20
+- model: workout.day
+  pk: 139
+  fields:
+    description: Saturday of week twenty
+    day: Sat
+    week_number: 20
+    slug: sat-20
+- model: workout.day
+  pk: 140
+  fields:
+    description: Sunday of week twenty
+    day: Sun
+    week_number: 20
+    slug: sun-20
+- model: workout.day
+  pk: 141
+  fields:
+    description: Monday of week twenty-one
+    day: Mon
+    week_number: 21
+    slug: mon-21
+- model: workout.day
+  pk: 142
+  fields:
+    description: Tuesday of week twenty-one
+    day: Tue
+    week_number: 21
+    slug: tue-21
+- model: workout.day
+  pk: 143
+  fields:
+    description: Wednesday of week twenty-one
+    day: Wed
+    week_number: 21
+    slug: wed-21
+- model: workout.day
+  pk: 144
+  fields:
+    description: Thursday of week twenty-one
+    day: Thu
+    week_number: 21
+    slug: thu-21
+- model: workout.day
+  pk: 145
+  fields:
+    description: Friday of week twenty-one
+    day: Fri
+    week_number: 21
+    slug: fri-21
+- model: workout.day
+  pk: 146
+  fields:
+    description: Saturday of week twenty-one
+    day: Sat
+    week_number: 21
+    slug: sat-21
+- model: workout.day
+  pk: 147
+  fields:
+    description: Sunday of week twenty-one
+    day: Sun
+    week_number: 21
+    slug: sun-21
+- model: workout.day
+  pk: 148
+  fields:
+    description: Monday of week twenty-two
+    day: Mon
+    week_number: 22
+    slug: mon-22
+- model: workout.day
+  pk: 149
+  fields:
+    description: Tuesday of week twenty-two
+    day: Tue
+    week_number: 22
+    slug: tue-22
+- model: workout.day
+  pk: 150
+  fields:
+    description: Wednesday of week twenty-two
+    day: Wed
+    week_number: 22
+    slug: wed-22
+- model: workout.day
+  pk: 151
+  fields:
+    description: Thursday of week twenty-two
+    day: Thu
+    week_number: 22
+    slug: thu-22
+- model: workout.day
+  pk: 152
+  fields:
+    description: You've had a particularly tough last three days, especially Tuesday's
+      ride & run, Wednesday's swim, and yesterday's track workout. You'll need this
+      day off to regroup before a tough weekend.
+    day: Fri
+    week_number: 22
+    slug: fri-22
+- model: workout.day
+  pk: 153
+  fields:
+    description: Saturday of week twenty-two
+    day: Sat
+    week_number: 22
+    slug: sat-22
+- model: workout.day
+  pk: 154
+  fields:
+    description: Sunday of week twenty-two
+    day: Sun
+    week_number: 22
+    slug: sun-22
+- model: workout.day
+  pk: 155
+  fields:
+    description: Monday of week twenty-three
+    day: Mon
+    week_number: 23
+    slug: mon-23
+- model: workout.day
+  pk: 156
+  fields:
+    description: Tuesday of week twenty-three
+    day: Tue
+    week_number: 23
+    slug: tue-23
+- model: workout.day
+  pk: 157
+  fields:
+    description: Wednesday of week twenty-three
+    day: Wed
+    week_number: 23
+    slug: wed-23
+- model: workout.day
+  pk: 158
+  fields:
+    description: Thursday of week twenty-three
+    day: Thu
+    week_number: 23
+    slug: thu-23
+- model: workout.day
+  pk: 159
+  fields:
+    description: Friday of week twenty-three
+    day: Fri
+    week_number: 23
+    slug: fri-23
+- model: workout.day
+  pk: 160
+  fields:
+    description: This is the first scheduled "Saturday triple". Notice that the run
+      and swim can be scheduled together at the pool (by water running), and that
+      both are to be done at very low intensities.
+    day: Sat
+    week_number: 23
+    slug: sat-23
+- model: workout.day
+  pk: 161
+  fields:
+    description: 'As a change of pace we''ll switch the order of events today: cycling
+      first before running outdoors (don''t switch if the weather is cold -- wouldn''t
+      want you to catch a chill out there).'
+    day: Sun
+    week_number: 23
+    slug: sun-23
+- model: workout.day
+  pk: 162
+  fields:
+    description: Take the day off here. (If, however, your swimming situation provides
+      for swimming on Mondays instead of Fridays, then switch your Friday swim to
+      today.)
+    day: Mon
+    week_number: 24
+    slug: mon-24
+- model: workout.day
+  pk: 163
+  fields:
+    description: Tuesday of week twenty-four
+    day: Tue
+    week_number: 24
+    slug: tue-24
+- model: workout.day
+  pk: 164
+  fields:
+    description: Wednesday of week twenty-four
+    day: Wed
+    week_number: 24
+    slug: wed-24
+- model: workout.day
+  pk: 165
+  fields:
+    description: Thursday of week twenty-four
+    day: Thu
+    week_number: 24
+    slug: thu-24
+- model: workout.day
+  pk: 166
+  fields:
+    description: Friday of week twenty-four
+    day: Fri
+    week_number: 24
+    slug: fri-24
+- model: workout.day
+  pk: 167
+  fields:
+    description: Another "Saturday triple". The run and swim can be scheduled together
+      at the pool (by water running) -- both are still to be done at very low intensities.
+    day: Sat
+    week_number: 24
+    slug: sat-24
+- model: workout.day
+  pk: 168
+  fields:
+    description: Sunday of week twenty-four
+    day: Sun
+    week_number: 24
+    slug: sun-24
+- model: workout.day
+  pk: 169
+  fields:
+    description: Monday of week twenty-five
+    day: Mon
+    week_number: 25
+    slug: mon-25
+- model: workout.day
+  pk: 170
+  fields:
+    description: Tuesday of week twenty-five
+    day: Tue
+    week_number: 25
+    slug: tue-25
+- model: workout.day
+  pk: 171
+  fields:
+    description: Wednesday's focus continues to act as a break between the higher
+      intensity focus of Tuesday's bike ride and Thursday's track session. Monitor
+      your body carefully today and keep the intensity under control. Nothing hard
+      today!
+    day: Wed
+    week_number: 25
+    slug: wed-25
+- model: workout.day
+  pk: 172
+  fields:
+    description: Thursday of week twenty-five
+    day: Thu
+    week_number: 25
+    slug: thu-25
+- model: workout.day
+  pk: 173
+  fields:
+    description: Friday of week twenty-five
+    day: Fri
+    week_number: 25
+    slug: fri-25
+- model: workout.day
+  pk: 174
+  fields:
+    description: You can approach these "Saturday triples" as though they were a triathlon
+      -- without the entry fee! In fact, feel free to put the swim in first (if pool
+      time permits), then transition quickly to your bike, and finish off with the
+      run. Of course there won't be any aid stations, but you can't have everything....
+    day: Sat
+    week_number: 25
+    slug: sat-25
+- model: workout.day
+  pk: 175
+  fields:
+    description: Sunday of week twenty-five
+    day: Sun
+    week_number: 25
+    slug: sun-25
+- model: workout.day
+  pk: 176
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 26
+    slug: mon-26
+- model: workout.day
+  pk: 177
+  fields:
+    description: Tuesday of week twenty-six
+    day: Tue
+    week_number: 26
+    slug: tue-26
+- model: workout.day
+  pk: 178
+  fields:
+    description: Wednesday of week twenty-six
+    day: Wed
+    week_number: 26
+    slug: wed-26
+- model: workout.day
+  pk: 179
+  fields:
+    description: Thursday of week twenty-six
+    day: Thu
+    week_number: 26
+    slug: thu-26
+- model: workout.day
+  pk: 180
+  fields:
+    description: ''
+    day: Fri
+    week_number: 26
+    slug: fri-26
+- model: workout.day
+  pk: 181
+  fields:
+    description: Saturday of week twenty-six
+    day: Sat
+    week_number: 26
+    slug: sat-26
+- model: workout.day
+  pk: 182
+  fields:
+    description: Sunday of week twenty-six
+    day: Sun
+    week_number: 26
+    slug: sun-26
+- model: workout.day
+  pk: 183
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 27
+    slug: mon-27
+- model: workout.day
+  pk: 184
+  fields:
+    description: Tuesday of week twenty-seven
+    day: Tue
+    week_number: 27
+    slug: tue-27
+- model: workout.day
+  pk: 185
+  fields:
+    description: Wednesday of week twenty-seven
+    day: Wed
+    week_number: 27
+    slug: wed-27
+- model: workout.day
+  pk: 186
+  fields:
+    description: Thursday of week twenty-seven
+    day: Thu
+    week_number: 27
+    slug: thu-27
+- model: workout.day
+  pk: 187
+  fields:
+    description: ''
+    day: Fri
+    week_number: 27
+    slug: fri-27
+- model: workout.day
+  pk: 188
+  fields:
+    description: Saturday of week twenty-seven
+    day: Sat
+    week_number: 27
+    slug: sat-27
+- model: workout.day
+  pk: 189
+  fields:
+    description: Sunday of week twenty-seven
+    day: Sun
+    week_number: 27
+    slug: sun-27
+- model: workout.day
+  pk: 190
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 28
+    slug: mon-28
+- model: workout.day
+  pk: 191
+  fields:
+    description: Tuesday of week twenty-eight
+    day: Tue
+    week_number: 28
+    slug: tue-28
+- model: workout.day
+  pk: 192
+  fields:
+    description: Wednesday of week twenty-eight
+    day: Wed
+    week_number: 28
+    slug: wed-28
+- model: workout.day
+  pk: 193
+  fields:
+    description: Thursday of week twenty-eight
+    day: Thu
+    week_number: 28
+    slug: thu-28
+- model: workout.day
+  pk: 194
+  fields:
+    description: ''
+    day: Fri
+    week_number: 28
+    slug: fri-28
+- model: workout.day
+  pk: 195
+  fields:
+    description: Saturday of week twenty-eight
+    day: Sat
+    week_number: 28
+    slug: sat-28
+- model: workout.day
+  pk: 196
+  fields:
+    description: Sunday of week twenty-eight
+    day: Sun
+    week_number: 28
+    slug: sun-28
+- model: workout.day
+  pk: 197
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 29
+    slug: mon-29
+- model: workout.day
+  pk: 198
+  fields:
+    description: Tuesday of week twenty-nine
+    day: Tue
+    week_number: 29
+    slug: tue-29
+- model: workout.day
+  pk: 199
+  fields:
+    description: Wednesday of week twenty-nine
+    day: Wed
+    week_number: 29
+    slug: wed-29
+- model: workout.day
+  pk: 200
+  fields:
+    description: Thursday of week twenty-nine
+    day: Thu
+    week_number: 29
+    slug: thu-29
+- model: workout.day
+  pk: 201
+  fields:
+    description: ''
+    day: Fri
+    week_number: 29
+    slug: fri-29
+- model: workout.day
+  pk: 202
+  fields:
+    description: Saturday of week twenty-nine
+    day: Sat
+    week_number: 29
+    slug: sat-29
+- model: workout.day
+  pk: 203
+  fields:
+    description: Sunday of week twenty-nine
+    day: Sun
+    week_number: 29
+    slug: sun-29
+- model: workout.day
+  pk: 204
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 30
+    slug: mon-30
+- model: workout.day
+  pk: 205
+  fields:
+    description: Tuesday of week thirty
+    day: Tue
+    week_number: 30
+    slug: tue-30
+- model: workout.day
+  pk: 206
+  fields:
+    description: Wednesday of week thirty
+    day: Wed
+    week_number: 30
+    slug: wed-30
+- model: workout.day
+  pk: 207
+  fields:
+    description: Thursday of week thirty
+    day: Thu
+    week_number: 30
+    slug: thu-30
+- model: workout.day
+  pk: 208
+  fields:
+    description: ''
+    day: Fri
+    week_number: 30
+    slug: fri-30
+- model: workout.day
+  pk: 209
+  fields:
+    description: Saturday of week thirty
+    day: Sat
+    week_number: 30
+    slug: sat-30
+- model: workout.day
+  pk: 210
+  fields:
+    description: Sunday of week thirty
+    day: Sun
+    week_number: 30
+    slug: sun-30
+- model: workout.day
+  pk: 211
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 31
+    slug: mon-31
+- model: workout.day
+  pk: 212
+  fields:
+    description: Tuesday of week thirty-one
+    day: Tue
+    week_number: 31
+    slug: tue-31
+- model: workout.day
+  pk: 213
+  fields:
+    description: Wednesday of week thirty-one
+    day: Wed
+    week_number: 31
+    slug: wed-31
+- model: workout.day
+  pk: 214
+  fields:
+    description: Thursday of week thirty-one
+    day: Thu
+    week_number: 31
+    slug: thu-31
+- model: workout.day
+  pk: 215
+  fields:
+    description: ''
+    day: Fri
+    week_number: 31
+    slug: fri-31
+- model: workout.day
+  pk: 216
+  fields:
+    description: Saturday of week thirty-one
+    day: Sat
+    week_number: 31
+    slug: sat-31
+- model: workout.day
+  pk: 217
+  fields:
+    description: Sunday of week thirty-one
+    day: Sun
+    week_number: 31
+    slug: sun-31
+- model: workout.day
+  pk: 218
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 32
+    slug: mon-32
+- model: workout.day
+  pk: 219
+  fields:
+    description: Tuesday of week thirty-two
+    day: Tue
+    week_number: 32
+    slug: tue-32
+- model: workout.day
+  pk: 220
+  fields:
+    description: Wednesday of week thirty-two
+    day: Wed
+    week_number: 32
+    slug: wed-32
+- model: workout.day
+  pk: 221
+  fields:
+    description: Thursday of week thirty-two
+    day: Thu
+    week_number: 32
+    slug: thu-32
+- model: workout.day
+  pk: 222
+  fields:
+    description: ''
+    day: Fri
+    week_number: 32
+    slug: fri-32
+- model: workout.day
+  pk: 223
+  fields:
+    description: Saturday of week thirty-two
+    day: Sat
+    week_number: 32
+    slug: sat-32
+- model: workout.day
+  pk: 224
+  fields:
+    description: Sunday of week thirty-two
+    day: Sun
+    week_number: 32
+    slug: sun-32
+- model: workout.day
+  pk: 225
+  fields:
+    description: 'Total day off -- relax and allow your body to rebuild.
+
+      Remember, rest with as much intensity as you train!'
+    day: Mon
+    week_number: 33
+    slug: mon-33
+- model: workout.day
+  pk: 226
+  fields:
+    description: Tuesday of week thirty-three
+    day: Tue
+    week_number: 33
+    slug: tue-33
+- model: workout.day
+  pk: 227
+  fields:
+    description: Wednesday of week thirty-three
+    day: Wed
+    week_number: 33
+    slug: wed-33
+- model: workout.day
+  pk: 228
+  fields:
+    description: Thursday of week thirty-three
+    day: Thu
+    week_number: 33
+    slug: thu-33
+- model: workout.day
+  pk: 229
+  fields:
+    description: ''
+    day: Fri
+    week_number: 33
+    slug: fri-33
+- model: workout.day
+  pk: 230
+  fields:
+    description: Saturday of week thirty-three
+    day: Sat
+    week_number: 33
+    slug: sat-33
+- model: workout.day
+  pk: 231
+  fields:
+    description: Sunday of week thirty-three
+    day: Sun
+    week_number: 33
+    slug: sun-33
+- model: workout.day
+  pk: 232
+  fields:
+    description: Monday of week thirty-four
+    day: Mon
+    week_number: 34
+    slug: mon-34
+- model: workout.day
+  pk: 233
+  fields:
+    description: Tuesday of week thirty-four
+    day: Tue
+    week_number: 34
+    slug: tue-34
+- model: workout.day
+  pk: 234
+  fields:
+    description: Wednesday of week thirty-four
+    day: Wed
+    week_number: 34
+    slug: wed-34
+- model: workout.day
+  pk: 235
+  fields:
+    description: Thursday of week thirty-four
+    day: Thu
+    week_number: 34
+    slug: thu-34
+- model: workout.day
+  pk: 236
+  fields:
+    description: Friday of week thirty-four
+    day: Fri
+    week_number: 34
+    slug: fri-34
+- model: workout.day
+  pk: 237
+  fields:
+    description: Saturday of week thirty-four
+    day: Sat
+    week_number: 34
+    slug: sat-34
+- model: workout.day
+  pk: 238
+  fields:
+    description: Sunday of week thirty-four
+    day: Sun
+    week_number: 34
+    slug: sun-34
+- model: workout.day
+  pk: 239
+  fields:
+    description: Monday of week thirty-five
+    day: Mon
+    week_number: 35
+    slug: mon-35
+- model: workout.day
+  pk: 240
+  fields:
+    description: Tuesday of week thirty-five
+    day: Tue
+    week_number: 35
+    slug: tue-35
+- model: workout.day
+  pk: 241
+  fields:
+    description: Wednesday of week thirty-five
+    day: Wed
+    week_number: 35
+    slug: wed-35
+- model: workout.day
+  pk: 242
+  fields:
+    description: Thursday of week thirty-five
+    day: Thu
+    week_number: 35
+    slug: thu-35
+- model: workout.day
+  pk: 243
+  fields:
+    description: Friday of week thirty-five
+    day: Fri
+    week_number: 35
+    slug: fri-35
+- model: workout.day
+  pk: 244
+  fields:
+    description: Saturday of week thirty-five
+    day: Sat
+    week_number: 35
+    slug: sat-35
+- model: workout.day
+  pk: 245
+  fields:
+    description: Sunday of week thirty-five
+    day: Sun
+    week_number: 35
+    slug: sun-35
+- model: workout.day
+  pk: 246
+  fields:
+    description: Monday of week thirty-six
+    day: Mon
+    week_number: 36
+    slug: mon-36
+- model: workout.day
+  pk: 247
+  fields:
+    description: Tuesday of week thirty-six
+    day: Tue
+    week_number: 36
+    slug: tue-36
+- model: workout.day
+  pk: 248
+  fields:
+    description: Wednesday of week thirty-six
+    day: Wed
+    week_number: 36
+    slug: wed-36
+- model: workout.day
+  pk: 249
+  fields:
+    description: Thursday of week thirty-six
+    day: Thu
+    week_number: 36
+    slug: thu-36
+- model: workout.day
+  pk: 250
+  fields:
+    description: Friday of week thirty-six
+    day: Fri
+    week_number: 36
+    slug: fri-36
+- model: workout.day
+  pk: 251
+  fields:
+    description: Saturday of week thirty-six
+    day: Sat
+    week_number: 36
+    slug: sat-36
+- model: workout.day
+  pk: 252
+  fields:
+    description: Sunday of week thirty-six
+    day: Sun
+    week_number: 36
+    slug: sun-36
