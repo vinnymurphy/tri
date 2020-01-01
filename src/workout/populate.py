@@ -2,8 +2,11 @@
 
 from argparse import ArgumentParser
 import inflect
+import re
+import requests
 
-from models import Day
+from bs4 import BeautifulSoup
+# from models import Day
 
 
 def parse_args():
@@ -16,14 +19,6 @@ def parse_args():
         '-v', '--verbose', action='store_true', default=True, help='Verbose'
     )
     return parser.parse_args()
-
-
-"""
-35     description = TextField(help_text='describe the day', blank=True)
- 36     day = CharField(max_length=3, choices=WEEK_DAY)
- 37     week_number = IntegerField(help_text='The week number in the season')
- 38     slug = AutoSlugField(populate_from=('day', 'week_number'))
- """
 
 
 def populate(verbose=False):
@@ -48,6 +43,68 @@ Remember, rest with as much intensity as you train!'''
         fri.save()
         
 
+def get_duration(txt):
+    mo = re.match('^.*?(\d+:\d+)\s*$', txt)
+    duration = 0
+    if mo:
+        hour, minute = map(int, mo.group(1).split(':'))
+        duration = hour * 60 + minute
+    return duration
+    
+def parse_trifuel(url):
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.text, features="lxml")
+    lines = [t for t in soup.text.splitlines() if t]
+    exercise_re = re.compile(r'^(SWIM|BIKE|RUN).*')
+    terminators = ('DAILY TOTAL:', 'WEEK-TO-DATE')
+    from collections import defaultdict
+    dd = defaultdict(list)
+    in_workout, day, exercise = False, '', ''
+    workout = list()
+    for line in lines:
+        if line.strip() in days:
+            day = line.strip()
+            workout = []
+            continue
+        if line.startswith(terminators):
+            in_workout = False
+            if workout:
+                dd[day].append({exercise: workout, 'duration': duration})
+            duration = 0
+            workout = []
+            continue
+    
+        mo = exercise_re.match(line)
+        if mo:
+            if exercise:
+                if workout:
+                    dd[day].append({exercise: workout, 'duration': duration})
+                    workout = []
+            exercise = mo.group(1)
+            duration = get_duration(line)
+            in_workout = True
+            continue
+        if in_workout:
+            workout.append(line)
+    return dd
+
+    
+days = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
 
 if __name__ == '__main__':
     args = parse_args()
+    week = parse_trifuel('http://www.trifuel.com/triathlon/ironman-workouts/weekp02.htm')
+    from pprint import pprint
+    for day in days:
+        print(f'{day}')
+        try:
+            for d in week[day]:
+                exercise = [k for k in d.keys() if k != 'duration'].pop()
+                print(f'Duration {d["duration"]} minutes for {exercise}')
+                print('{0}'.format('\n'.join(d[exercise])))
+        except KeyError:
+            pass
+
+
+#    fifteen = parse_trifuel('http://www.trifuel.com/triathlon/ironman-workouts/weekp15.htm')
