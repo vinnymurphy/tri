@@ -16,6 +16,9 @@ def parse_args():
     """
     parser = ArgumentParser(description='populate the database')
     parser.add_argument(
+        '-u', '--url', type=str, required=True, help='The url from trifuel'
+    )
+    parser.add_argument(
         '-v', '--verbose', action='store_true', default=True, help='Verbose'
     )
     return parser.parse_args()
@@ -63,8 +66,12 @@ def parse_trifuel(url):
     in_workout, day, exercise = False, '', ''
     workout = list()
     for line in lines:
-        if line.strip() in days:
-            day = line.strip()
+        if line.strip().startswith(days):
+            if ',' in line.strip():
+                day = line.strip().split(',')[0].strip()
+            else:
+                day = line.strip()
+            
             workout = []
             continue
         if line.startswith(terminators):
@@ -92,9 +99,14 @@ def parse_trifuel(url):
     
 days = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
 
+
+def workout(week_num, text, event):
+    pass
+
+
 if __name__ == '__main__':
     args = parse_args()
-    week = parse_trifuel('http://www.trifuel.com/triathlon/ironman-workouts/weekp02.htm')
+    week = parse_trifuel(args.url)
     from pprint import pprint
     for day in days:
         print(f'{day}')
